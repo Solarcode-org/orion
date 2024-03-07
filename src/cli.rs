@@ -12,12 +12,12 @@ pub(crate) struct Args {
 pub(crate) enum Commands {
     /// Run an Orion File.
     Run {
-        #[arg(long, help = "The file to run.")]
+        #[arg(help = "The file to run.")]
         file: String
     },
     /// Generate completions for a shell
     Complete {
-        #[arg(short, long, help = "The shell to generate completions for.")]
+        #[arg(help = "The shell to generate completions for.")]
         shell: String
     }
 }
