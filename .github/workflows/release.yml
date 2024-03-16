@@ -16,6 +16,9 @@ jobs:
       - name: Install Bonnie
         run: cargo install bonnie
 
+      - name: Install Cross
+        run: cargo install cross
+
       - name: Run tests
         id: test
         run: cargo test --verbose
