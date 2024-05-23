@@ -451,7 +451,7 @@ checksum = "3fdb12b2476b595f9358c5161aa467c2438859caa136dec86c26fdd2efe17b92"
 
 [[package]]
 name = "orion"
-version = "0.1.0"
+version = "0.4.0"
 dependencies = [
  "clap",
  "clap_complete",
@@ -461,9 +461,9 @@ dependencies = [
 
 [[package]]
 name = "orion_lib"
-version = "5.0.0"
+version = "6.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "678e2e2e430148683d403f35283065faab1feb5e0c185ac0d040a7bec5ba07b7"
+checksum = "8777560460032c15e54213149106208e0c347f6f92b095017026851e78708940"
 dependencies = [
  "color-eyre",
  "lalrpop",
