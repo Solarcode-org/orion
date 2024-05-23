@@ -1,3 +1,5 @@
+//! The CLI.
+
 use clap::{Parser, Subcommand};
 
 /// The Orion CLI
