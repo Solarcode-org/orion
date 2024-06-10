@@ -8,6 +8,6 @@ authors = ["ArnabRollin <iamarnab.phukan@gmail.com>"]
 
 [dependencies]
 clap = { version = "4.5.2", features = ["derive"] }
-clap_complete = "4.5.1"
+clap_complete = "4.5.5"
 color-eyre = "0.6.3"
 orion_lib = "6.0.0"
