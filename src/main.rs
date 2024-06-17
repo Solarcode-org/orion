@@ -15,9 +15,9 @@ fn main() -> Result<()> {
     let args = Args::parse();
 
     match args.command {
-        Commands::Run { file } => {
+        Commands::Run { file, braces } => {
             let contents = read_to_string(&file).with_context(|| f!("Could not read file `{file}`"))?;
-            run_contents(contents)?;
+            run_contents(contents, braces)?;
         }
         Commands::Complete { shell } => complete(shell, &mut Args::command())?,
     }

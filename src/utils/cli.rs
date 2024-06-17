@@ -14,8 +14,12 @@ pub(crate) struct Args {
 pub(crate) enum Commands {
     /// Run an Orion File.
     Run {
-        #[arg(help = "The file to run.")]
+        /// The file to run.
         file: String,
+
+        /// Whether to use braces or not
+        #[arg(long)]
+        braces: bool
     },
     /// Generate completions for a shell
     Complete {
