@@ -4,9 +4,9 @@
 pub use color_eyre::eyre::WrapErr;
 
 /// The Result type.
-pub type Result<T> = color_eyre::Result<T>;
+pub type Result<T = (), E = color_eyre::Report> = color_eyre::Result<T, E>;
 
-/// Return early.
+// Return early.
 pub use color_eyre::eyre::bail;
 
 // Personal preference
