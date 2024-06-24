@@ -478,9 +478,9 @@ dependencies = [
 
 [[package]]
 name = "orion_lib"
-version = "7.1.0"
+version = "7.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d4d25599c702144bdf130abcd6f94791f8f0458fa8a5d1284c01a7f65246d8a5"
+checksum = "d54733d29832fdf905212d30700bbd166049d890744b4cefa0d99f691102d72b"
 dependencies = [
  "color-eyre",
  "lalrpop",
