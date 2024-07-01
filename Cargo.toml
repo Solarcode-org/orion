@@ -10,6 +10,6 @@ authors = ["ArnabRollin <iamarnab.phukan@gmail.com>"]
 clap = { version = "4.5.2", features = ["derive"] }
 clap_complete = "4.5.1"
 color-eyre = "0.6.3"
-orion_lib = "7.1.0"
+orion_lib = "7.3.0"
 serde = { version = "1.0.203", features = ["derive"] }
 serde_yaml = "0.9.34"
